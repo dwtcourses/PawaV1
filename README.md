@@ -5,8 +5,8 @@ Stride is a bot designed to give your landing pages a more interactive and attra
 [DEMO](http://stride.technopathic.me)
 
 ## Screenshots
-<img src="https://technopathic.me/storage/stridevid.gif"/>
-![Screenshot](https://technopathic.me/storage/stridescreen.png)
+![Screenshot](https://technopathic.me/storage/stridescreen1.png)
+![Screenshot](https://technopathic.me/storage/stridescreen2.png)
 
 ## Getting Started
 To quickly get started, fork this repo or clone it onto your local computer. Then run `npm install` to install all of the necessary libraries.
