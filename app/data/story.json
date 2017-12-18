@@ -1,0 +1,75 @@
+[
+  {
+    "type":"text",
+    "data":"Hi there! This is Stride and I am a conversation that lives on a website."
+  },
+  {
+    "type":"input",
+    "multi":false,
+    "data":"What's your name?",
+    "action":"_this.addBlock('Welcome ' + input + '! Thanks for checking us out.')"
+  },
+  {
+    "type":"option",
+    "data":"Doing well today?",
+    "title":"Choose an Option",
+    "options":[
+      {
+        "data":"Meow",
+        "type":"function",
+        "action":"_this.addBlock('Glad to hear it!')"
+      },
+      {
+        "data":"Been better",
+        "type":"function",
+        "action":"_this.addBlock('Maybe this will make you feel better.')"
+      }
+    ]
+  },
+  {
+    "type":"image",
+    "data":"http://blogs.yis.ac.jp/20takahashia/files/2013/10/Moving-picture-floating-kitty-cats-animated-gif-1jef0v3.gif"
+  },
+  {
+    "type":"text",
+    "data":"Let me tell you a bit more about Stride."
+  },
+  {
+    "type":"text",
+    "data":"With Stride you can create interactive Landing pages for your website."
+  },
+  {
+    "type":"option",
+    "data":"It's as easy as writing a story for your visitors.",
+    "title":"Choose an Option",
+    "options":[
+      {
+        "data":"That sounds amazing!",
+        "type":"function",
+        "action":"_this.addBlock('I know right?')"
+      },
+      {
+        "data":"Is it difficult to use?",
+        "type":"function",
+        "action":"_this.addBlock('No way! It's really quite simple.')"
+      }
+    ]
+  },
+  {
+    "type":"text",
+    "data":"With basic JSON and JavaScript knowledge, you can easily write your own Stride Story."
+  },
+  {
+    "type":"text",
+    "data":"Ready to get started? Check out our Github Link."
+  },
+  {
+    "type":"link",
+    "data":"https://github.com/Technopathic/Stride.git",
+    "text":"Stride on Github"
+  },
+  {
+    "type":"text",
+    "data":"See you around!"
+  }
+]
