@@ -5,7 +5,7 @@ Stride is a bot designed to give your landing pages a more interactive and attra
 [DEMO](http://stride.technopathic.me)
 
 ## Screenshots
-![Screenshot](https://technopathic.me/storage/stridevid.gif)
+<img src="https://technopathic.me/storage/stridevid.gif"/>
 ![Screenshot](https://technopathic.me/storage/stridescreen.png)
 
 ## Getting Started
