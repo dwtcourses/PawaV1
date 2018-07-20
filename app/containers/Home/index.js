@@ -19,7 +19,7 @@ export default class Home extends React.PureComponent {
     super(props);
     let _this = this;
     this.state = {
-      siteAvatar:"http://avatar.technopathic.me/cat-avatar-generator.php?seed=nadeem",
+      siteAvatar:"http://avatar.technopathic.me/cat-avatar-generator.php?seed=pawa",
       userAvatar:"",
       data:"",
       blocks:[],
@@ -404,11 +404,11 @@ export default class Home extends React.PureComponent {
     if(this.state.isLoading) {
       return (
         <div className="container">
-          <Helmet title="Stride - Conversational Landing Bot" meta={[ { name: 'description', content: 'Description of Home' }]}/>
-          <a href="https://github.com/Technopathic/Stride"><img style={{position:"absolute", top:"0", right:"0", border:"0"}} src="https://camo.githubusercontent.com/52760788cde945287fbb584134c4cbc2bc36f904/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f77686974655f6666666666662e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_white_ffffff.png" /></a>
+          <Helmet title="Pawa" meta={[ { name: 'description', content: 'Description of Home' }]}/>
+          <a href="https://github.com/Technopathic/Stride"><img style={{position:"absolute", top:"0", right:"0", border:"0"}} src="https://camo.githubusercontent.com/52760788cde945287fbb584134c4cbc2bc36f904/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f77686974655f6666666666662e706e67" alt="Login" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_white_ffffff.png" /></a>
           <header className="headerContainer">
             <div className="headerWrapper">
-              <div className="siteName">Stride</div>
+              <div className="siteName">Pawa</div>
               <div className="siteMenu"></div>
             </div>
           </header>
@@ -431,11 +431,11 @@ export default class Home extends React.PureComponent {
     else {
       return (
         <div className="container">
-          <Helmet title="Stride - Conversational Landing Bot" meta={[ { name: 'description', content: 'Description of Home' }]}/>
-          <a href="https://github.com/Technopathic/Stride"><img style={{position:"absolute", top:"0", right:"0", border:"0"}} src="https://camo.githubusercontent.com/52760788cde945287fbb584134c4cbc2bc36f904/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f77686974655f6666666666662e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_white_ffffff.png" /></a>
+          <Helmet title="Pawa-Helping admins manage communities" meta={[ { name: 'description', content: 'Description of Home' }]}/>
+          <a href="https://github.com/Technopathic/Stride"><img style={{position:"absolute", top:"0", right:"0", border:"0"}} src="" alt="Login" data-canonical-src="" /></a>
           <header className="headerContainer">
             <div className="headerWrapper">
-              <div className="siteName">Stride</div>
+              <div className="siteName">Pawa</div>
               <div className="siteMenu"></div>
             </div>
           </header>
