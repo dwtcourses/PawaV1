@@ -1,75 +1,115 @@
 [
   {
     "type":"text",
-    "data":"Hi there! This is Stride and I am a conversation that lives on a website."
+    "data":"Hey there! 👋 🙂"
+  },
+  {
+    "type":"text",
+    "data":"I’m Pawa, a virtual assistant who helps group admins grow their online communities."
   },
   {
     "type":"input",
     "multi":false,
-    "data":"What's your name?",
-    "action":"_this.addBlock('Welcome ' + input + '! Thanks for checking us out.')"
+    "data":"Let's get to know each other! 🤝 What's your name❓",
+    "action":"_this.addBlock('Nice to meet you ' + input + '!😄')"
+  },
+  {
+    "type":"text",
+    "data":"I have 3 power features, but I'm best known for helping measure community engagement.💪"
   },
   {
     "type":"option",
-    "data":"Doing well today?",
+    "data":"How active is the community you manage❓",
     "title":"Choose an Option",
     "options":[
       {
-        "data":"Meow",
+        "data":"Very active",
         "type":"function",
         "action":"_this.addBlock('Glad to hear it!')"
       },
       {
-        "data":"Been better",
+        "data":"Just meeh!",
         "type":"function",
-        "action":"_this.addBlock('Maybe this will make you feel better.')"
+        "action":"_this.addBlock('Maybe Pawa can help drive more engagement.')"
       }
     ]
   },
   {
     "type":"image",
-    "data":"http://blogs.yis.ac.jp/20takahashia/files/2013/10/Moving-picture-floating-kitty-cats-animated-gif-1jef0v3.gif"
+    "data":"http://i.imgur.com/q3e87zR.gif"
   },
   {
     "type":"text",
-    "data":"Let me tell you a bit more about Stride."
+    "data":"Let me tell you a bit more about Pawa."
   },
   {
     "type":"text",
-    "data":"With Stride you can create interactive Landing pages for your website."
+    "data":"Using a scientific tool called SO(V)C index I gauge the sense of commmunity in online groups."
+  },
+  {
+    "type":"text",
+    "data":"It's as easy as sending a questionnaire link to group members through a 💬conversational bot."
   },
   {
     "type":"option",
-    "data":"It's as easy as writing a story for your visitors.",
+    "data":"They interactively fill it out and I track the results on a beautiful 📈dashboard.",
     "title":"Choose an Option",
     "options":[
       {
-        "data":"That sounds amazing!",
+        "data":"That's amazing!",
         "type":"function",
-        "action":"_this.addBlock('I know right?')"
+        "action":"_this.addBlock('I know right!😉')"
       },
       {
         "data":"Is it difficult to use?",
         "type":"function",
-        "action":"_this.addBlock('No way! It's really quite simple.')"
+        "action":"_this.addBlock('No way! Its really quite simple.')"
       }
     ]
   },
   {
     "type":"text",
-    "data":"With basic JSON and JavaScript knowledge, you can easily write your own Stride Story."
+    "data":"Pawa has another great feature I call 💌HonestyBox."
   },
   {
     "type":"text",
-    "data":"Ready to get started? Check out our Github Link."
+    "data":"Group members can post sensitive questions anonmously giving emotional safety to shy members"
+  },
+
+
+  {
+    "type":"option",
+    "data":"I can also 📊calculate your community activity scores with data from FB Group Insights.",
+    "title":"Choose an Option",
+    "options":[
+      {
+        "data":"Wow!",
+        "type":"function",
+        "action":"_this.addBlock('😉')"
+      },
+      {
+        "data":"🗣️Tell me more!",
+        "type":"function",
+        "action":"_this.addBlock('Sure!')"
+      }
+    ]
+  },
+
+  {
+    "type":"text",
+    "data":"And the best part is I work for free in an app you already use, Facebook Messenger!"
+  },
+
+
+
+  {
+    "type":"text",
+    "data":"Ready to get started?🚀 Connect with Facebook below 👇"
   },
   {
     "type":"link",
     "data":"https://github.com/Technopathic/Stride.git",
-    "text":"Stride on Github"
-  },
-  {
-    "type":"text",
-    "data":"See you around!"
+    "text":"Login With Facebook"
   }
+
 ]
